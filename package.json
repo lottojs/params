@@ -1,6 +1,6 @@
 {
   "name": "@lottojs/params-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NodeJS HTTP Request path and query parameters parser",
   "author": "Pedro Harbs <harbspj@gmail.com>",
   "license": "MIT",
