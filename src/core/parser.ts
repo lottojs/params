@@ -30,7 +30,7 @@ export class Parser implements AbstractParser {
             // adds query parameters.
             if (query) {
                 req.query = query
-                    .substring(1)
+                    .substring(0)
                     .split('&')
                     .reduce((queryParams: Record<string, any>, param) => {
                         const [key, value] = param.split('=')
